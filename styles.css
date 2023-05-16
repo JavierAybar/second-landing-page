@@ -63,8 +63,6 @@ nav {
     
 }
 
-
-
 .bat-signal-btn {
     font-size: 18px;
     background-color: yellow;
@@ -73,3 +71,33 @@ nav {
     width: 120px;
     margin-top: 10px;
 }
+
+
+/*  */
+
+.container-moments-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.moments-img-description {
+    width: 250px;
+    margin: 40px;
+}
+
+
+.img-moments {
+    width: 250px;
+    height: 200px;
+    border: 5px black solid;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+/* */
