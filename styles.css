@@ -39,6 +39,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     margin: 100px;
+    flex-wrap: wrap;
 
 }
 .background-hero-section {
@@ -50,6 +51,7 @@ nav {
     height: 300px;
     width: 450px;
     border-radius: 7px;
+    
 }
 
 .hero-main-text {
@@ -100,4 +102,26 @@ h2 {
     font-size: 35px;
 }
 
-/* */
+/* section quote*/
+
+.section-quote {
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    background-color: #e5e7eb;
+    padding: 10px;
+}
+
+.background-quote{
+    font-size: 2em;
+}
+
+/* Footer*/
+
+footer {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-image: url(images/background-nav.jpg);
+    padding: 10px;
+}
